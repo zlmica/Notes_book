@@ -3,12 +3,12 @@
   - [解构赋值](ES6/parsing.md)
   - [展开符](ES6/anSymbol.md)
   - [箭头函数](ES6/arrowFunction.md)
+  - [系统对象](ES6/systemObject.md)
+  - [异步操作](ES6/asynchronous.md)
 - 面向对象
-- 闭包
-- 正则表达式
 - Node
 - 数据库
 - Webpack
 - Vue
 - React
-- React native
+- React Native

@@ -47,3 +47,5 @@ const PI = 3.14;
 PI = 3.15; // 报错, Assignment to constant variable.
 ```
 ps: **const** 声明方式也存在块级作用域，同 **let** 一致。
+
+***
