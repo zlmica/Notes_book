@@ -10,8 +10,8 @@ console.log(a); // 2
 2. 没有块级作用域
 ``` js
 if (true) {
-      var b = 1;
-      console.log(b); // 1
+    var b = 1;
+    console.log(b); // 1
 }
 console.log(b); // 1
 ```
@@ -32,8 +32,8 @@ let a = 2; // 报错，Identifier 'a' has already been declared.
 - 变量有块级作用域，解决上述问题2
 ``` js
 if (true) {
-      let b = 1;
-      console.log(b); // 1
+    let b = 1;
+    console.log(b); // 1
 }
 console.log(b); // 报错，c is not defined.
 ```
