@@ -3,17 +3,17 @@
 1. 可以重复声明
 ``` js
 var a = 1;
-consle.log(a); // 1
+console.log(a); // 1
 var a = 2;
-consle.log(a); // 2
+console.log(a); // 2
 ```
 2. 没有块级作用域
 ``` js
 if (true) {
   var b = 1;
-  consle.log(b); // 1
+  console.log(b); // 1
 }
-consle.log(b); // 1
+console.log(b); // 1
 ```
 3. 没有常量概念，不能限制修改
 ``` js
@@ -33,9 +33,9 @@ let a = 2; // 报错，Identifier 'a' has already been declared.
 ``` js
 if (true) {
   let b = 1;
-  consle.log(b); // 1
+  console.log(b); // 1
 }
-consle.log(b); // 报错，c is not defined.
+console.log(b); // 报错，c is not defined.
 ```
 ## const
 *ES6中用作声明常量*
