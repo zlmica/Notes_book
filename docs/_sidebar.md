@@ -1,5 +1,7 @@
 - ES6
   - [变量声明](ES6/variable.md)
+  - [解构赋值](ES6/parsing.md)
+  - [展开符](ES6/anSymbol.md)
   - [箭头函数](ES6/arrowFunction.md)
 - 面向对象
 - 闭包
