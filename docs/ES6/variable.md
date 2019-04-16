@@ -44,4 +44,4 @@ consle.log(b); // 报错，c is not defined.
 const PI = 3.14;
 PI = 3.15; // 报错, Assignment to constant variable.
 ```
-ps: const声明方式也存在块级作用域，同let一致
+ps: **const** 声明方式也存在块级作用域，同 **let** 一致。
