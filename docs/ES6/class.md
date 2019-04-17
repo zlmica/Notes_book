@@ -25,7 +25,7 @@ class Woman extends Person {
 class Woman extends Person {
     constructor(){
         // 调用父类的 constructor
-        super()
+        super();
     }
 }
 let p = new Woman();
