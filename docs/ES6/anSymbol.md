@@ -5,7 +5,6 @@
 
 ...{a: 1, b:2, c: 3} 等价于 a: 1, b: 2, c: 3
 
-*eg:*
 ``` js
 // 数组
 let arr = [1, 2, 3];
@@ -24,7 +23,6 @@ let arr4 = [...arr2, ...arr3]; // [1, 2, 3, 0, 1, 2, 3]
 
 ## 剩余参数
 
-*eg:*
 ``` js
 function func(a, b, ...arg) {
       console.log(a, b, arg);

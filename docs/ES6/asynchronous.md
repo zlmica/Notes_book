@@ -1,5 +1,4 @@
 ## Promise
-*eg:*
 ``` js
 let a = 1;
 // 创建一个 Promise 对象
@@ -48,9 +47,8 @@ Promise.all([p, p1, p2]).then((data) => {
 })
 ```
 ## async/await
-*此为ES7的内容*
+*此为ES2017引进的标准*
 
-*eg:*
 ``` js
 async function func() {
     let data1 = await $ajax({url: url1});
