@@ -25,7 +25,7 @@ let arr4 = [...arr2, ...arr3]; // [1, 2, 3, 0, 1, 2, 3]
 
 ``` js
 function func(a, b, ...arg) {
-      console.log(a, b, arg);
+    console.log(a, b, arg);
 }
 func(0, 1, 2, 3, 4); // 0, 1, [2, 3, 4]
 ```
