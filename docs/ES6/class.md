@@ -1,6 +1,7 @@
 ## 类的创建
 
 ``` js
+// class 关键字
 class Person {
     constructor(){
     // 构造函数
