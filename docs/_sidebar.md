@@ -14,3 +14,4 @@
 - Vue
 - React
 - React Native
+- TypeScript
