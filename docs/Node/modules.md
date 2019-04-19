@@ -11,11 +11,3 @@ let server = http.createServer((req, res) => {
 // 监听 3000 端口
 server.listen(3000);
 ```
-
-## fs
-
-通常我们会用异步读写
-
-``` js
-
-```
