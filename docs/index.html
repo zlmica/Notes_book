@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 </head>
 <body>
   <div id="app">加载中。。。</div>
@@ -34,6 +35,20 @@
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'a3167d2a195c0e3d5982',
+      clientSecret: '92f682089a27ebd26d1388b8abd339fcf22b70ab',
+      repo: 'https://github.com/settings/applications/1050870',
+      owner: 'zlmica',
+      admin: ['zlmica'],
+      title: '欢迎留言',
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
   <!-- <script src="//unpkg.com/docsify-copy-code"></script> -->
 
 </body>
